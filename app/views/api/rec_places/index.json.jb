@@ -1,0 +1,12 @@
+@rec_places
+
+    # query = params[:query]
+    # key = params[:key]
+# working index action
+# @rec_places.map do |rec_place|
+#   {
+#     id: rec_place.id,
+#     name: rec_place.name,
+#     formatted_address: rec_place.formatted_address
+#   }
+# end

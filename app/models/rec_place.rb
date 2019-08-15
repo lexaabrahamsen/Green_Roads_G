@@ -1,0 +1,2 @@
+class RecPlace < ApplicationRecord
+end
