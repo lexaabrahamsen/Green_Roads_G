@@ -6,17 +6,13 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 RecPlace.create(name: "Rec Place 1", formatted_address: "123 Road")
-
-
-class CreateRecPlaces < ActiveRecord::Migration[6.0]
-  def change
-    create_table :rec_places do |t|
-      t.string :opening_hours
-      t.string :name
-      t.float :geometry
-      t.string :formatted_address
-
-      t.timestamps
-    end
-  end
-end
+RecPlace.create(name: "Rec Place 2", formatted_address: "123 Road", opening_hours: "now")
+RecPlace.create(name: "Rec Place 3", formatted_address: "123 Road", opening_hours: "now")
+RecPlace.create(name: "Rec Place 4", formatted_address: "123 Road", opening_hours: "now")
+RecPlace.create(name: "Rec Place 5", formatted_address: "123 Road", opening_hours: "now")
+RecPlace.create(name: "Rec Place 6", formatted_address: "123 Road", opening_hours: "now")
+RecPlace.create(name: "Rec Place 7", formatted_address: "123 Road", opening_hours: "now")
+RecPlace.create(name: "Rec Place 8", formatted_address: "123 Road", opening_hours: "now")
+RecPlace.create(name: "Rec Place 9", formatted_address: "123 Road", opening_hours: "now")
+RecPlace.create(name: "Rec Place 10", formatted_address: "123 Road", opening_hours: "now")
+RecPlace.create(name: "Rec Place 11", formatted_address: "123 Road", opening_hours: "now")

@@ -1,12 +1,19 @@
-# @rec_places
+{rec_places:@rec_places}
 
-    # query = params[:query]
-    # key = params[:key]
-# working index action
-@rec_places.map do |rec_place|
-  {
-    id: rec_place.id,
-    name: rec_place.name,
-    formatted_address: rec_place.formatted_address
-  }
-end
+# json.array! @rec_places.each do |rec_place|
+#   json.id rec_place.id
+#   json.name rec_place.name
+#   json.formatted_address rec_place.formatted_address
+#   json.opening_hours rec_place.opening_hours
+# end
+
+#     query = params[:query]
+#     key = params[:key]
+# # working index action
+# @rec_places.map do |rec_place|
+#   {
+#     # id: rec_place.id,
+#     name: rec_place.name,
+#     formatted_address: rec_place.formatted_address
+#   }
+# end
